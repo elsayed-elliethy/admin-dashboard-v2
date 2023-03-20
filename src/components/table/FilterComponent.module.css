@@ -1,0 +1,45 @@
+.filterInput {
+  border: none;
+  background-color: #E6E6E6;
+  font-size: 1.5rem;
+  padding: 0 15px;
+  color: #011A4D;
+  outline: none;
+  border-radius: 1rem;
+  display: block;
+  width: 70% !important;
+  max-width: 100%;
+  /* margin: auto; */
+
+}
+.filterInput::placeholder {
+  text-align: left;
+}
+.addLink {
+  display: block;
+  width: 20%;
+  animation: pulse 1.5s;
+  transition: 0.3s;
+text-decoration: none;
+  
+}
+.addBtn {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  background-color: #011A4D;
+  color: #fff;
+}
+
+@media (max-width:767px){
+  /* .filterInput {
+    width: 50%;
+  } */
+  .addLink {
+    width: 25%;
+  }
+}
